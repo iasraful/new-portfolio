@@ -42,11 +42,10 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
+              title="Front-End Developer"
               date="June 2020 - August 2020"
               content={[
                 "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -67,18 +66,18 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Ahsanullah University of Science and Technology "
-              date="2017 - Present"
-              content={[`CGPA: 7.5 (Till 5 th Sem)`]}
+              date="2018 - Present"
+              content={[`CGPA: Coming Soon`]}
             />
             <Resumecontent
               title="12TH BOARD [Rajarbug Police Lines School and College]"
               date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              content={["Percentage: 88%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
+              title="10TH BOARD [Haji Shariat Ullah School] "
               date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              content={["Precentage: 76%"]}
             />
             <h3 className="resume-title">Ranks and Achievement</h3>
             <Resumecontent
