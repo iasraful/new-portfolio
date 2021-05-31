@@ -64,8 +64,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Some thing Special"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier ."
+              title="Some Special"
+              description="This is a premiem league Website. Using React and Rest API's."
               link="https://github.com/iasraful/english-premiem-league"
             />
           </Col>
@@ -74,8 +74,8 @@ function Projects() {
             <ProjectCard
               imgPath={eeg}
               isBlog={false}
-              title="Emotion EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
+              title="Select Player"
+              description="Using JS seclect your player and see your cost for the player."
               link="https://github.com/iasraful/select-your-players"
             />
           </Col>
