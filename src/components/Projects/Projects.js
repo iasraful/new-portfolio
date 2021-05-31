@@ -30,9 +30,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Red Onion Foods"
+              description="A single page  restaurant app where people are able to select food in their cart and checkout     
+              the cart with their information."
+              link="https://red-onion-restaura.firebaseapp.com/"
             />
           </Col>
 
@@ -40,9 +41,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Doctors Portal"
+              description="A single-page web app with a dashboard where people can pick the date and time
+              and fix an appointment. A doctor can review his appointments and prescribe
+              medicine to a Patient from his dashboard.
+              "
+              link="https://doctors-portal-react.firebaseapp.com/"
             />
           </Col>
 
@@ -52,7 +56,7 @@ function Projects() {
               isBlog={false}
               title="For Travelling To get Guides"
               description="We are used to go to travel that a time we must need guide to guide us."
-              link="https://github.com/iasraful/the-next-trip"
+              link="https://super-shop-bd.web.app/"
             />
           </Col>
 
@@ -85,15 +89,15 @@ function Projects() {
             <BlogCard
               imgPath={algo}
               link=""
-              title="Cracking Interview"
+              title="Comming Soon"
               site="gitbook.com"
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
-              link="https://medium.com/jovihttps://medium.com/@iasraful321anml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
+              link="https://iasraful321.medium.com/"
+              title="JavaScript"
               site="medium.com"
             />
           </Col>
