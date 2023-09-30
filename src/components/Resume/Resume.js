@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -42,8 +44,8 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Front-End Developer"
-              date="June 2020 - August 2020"
+              title="JavaScript Developer"
+              date="February 2022 - December 2022"
               content={[
                 "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
               ]}
@@ -56,16 +58,16 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Software Developer [Viola Vitalis-2023 - Present]"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Operated on developing the frontend end of the website using Tailwind, Javascript, React, Redux, Next.js, and backend APIs using Node.js",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Ahsanullah University of Science and Technology "
+              title="National University "
               date="2018 - Present"
               content={[`CGPA: Coming Soon`]}
             />
@@ -84,7 +86,6 @@ function Resume() {
               title=""
               content={[
                 `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
